@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Sharethis</display_name>
+    <icon>fa-share-alt</icon>
+    <description>
+        Soporte para Sharethis. Añade el código de invocación en el encabezado y div de botonera
+        en entradas individuales.
+    </description>
+    
+    <settings_data>
+        <title>Sharethis</title>
+        
+        <specs key="head_code">
+            <title>Código de invocación</title>
+            <description><![CDATA[
+                Pega el código de invocación de sharethis a poner en el encabezado.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="button_code">
+            <title>Código de botonera</title>
+            <description><![CDATA[
+                Pega el código de botones de sharethis a colocar al final del contenido de la entrada.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+    </settings_data>
+    
+</language>

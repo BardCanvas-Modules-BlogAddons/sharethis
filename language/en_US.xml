@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Sharethis</display_name>
+    <icon>fa-share-alt</icon>
+    <description>
+        Sharethis support. Adds invocation code at the head and below the contents on individual posts.
+    </description>
+    
+    <settings_data>
+        <title>Sharethis</title>
+        
+        <specs key="head_code">
+            <title>Invocation code</title>
+            <description><![CDATA[
+                Paste the sharethis invocation code to set on the header.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+        <specs key="button_code">
+            <title>Buttons code</title>
+            <description><![CDATA[
+                Paste the sharethis buttons code to set below the post contents.
+            ]]></description>
+            <type>code</type>
+        </specs>
+        
+    </settings_data>
+    
+</language>
