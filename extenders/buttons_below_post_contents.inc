@@ -15,6 +15,7 @@ use hng2_modules\posts\post_record;
 global $post, $settings;
 
 if( empty($post) ) return;
+if( $post->status != "published" ) return;
 if( $settings->get("modules:sharethis.head_code")   == "" ) return;
 if( $settings->get("modules:sharethis.button_code") == "" ) return;
 
